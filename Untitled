@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Heading</h1>
+
+<p>My First paragraph.</p>
+
+<img src="Images/butterfly.jpg" alt="butterfly" style="width:128px;height:7-px;">
+
+</body>
+</html>
