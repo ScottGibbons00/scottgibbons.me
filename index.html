@@ -35,6 +35,35 @@
   vertical-align: middle;
   width: 100%;
 }
+.zoom{
+  transition: transform .2s;
+}
+.zoom:hover{
+  transform: scale(1.2);
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #3e8e41;
+}
+.button {
+  background-color: #D35400;
+  border: none;
+  color: white;
+  padding: 35px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 1px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition-duration: 0.4s;
+
+}
+.buttonhover:hover{
+  background-color: #873600;
+}
 
 
 </style>
@@ -42,6 +71,10 @@
 
 
   <div id="index-banner" class="parallax-container">
+
+      <a href="#Nature" class="button buttonhover">Nature</a>
+      <a href="#Music" class="button buttonhover">Music</a>
+
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
@@ -76,7 +109,7 @@
   </div>
 
 
-  <div class="parallax-container valign-wrapper">
+  <div id="Nature" class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
@@ -105,34 +138,34 @@
 
         <div class="row" style="width:140%; margin-left: -200px">
             <div class="column">
-                <img src="alaska_waterfall.jpg" style="width:100%">
-                  <img src="colorado.jpg" style="width:100%">
-                  <img src="crow_pass.jpg" style="width:100%">
-                  <img src="dark_trees.jpg" style="width:100%">
+                <img src="alaska_waterfall.jpg" style="width:100%" class="zoom">
+                  <img src="colorado.jpg" style="width:100%"class="zoom">
+                  <img src="crow_pass.jpg" style="width:100%"class="zoom">
+                  <img src="dark_trees.jpg" style="width:100%"class="zoom">
             </div>
             <div class="column">
-                  <img src="hawaii.jpg" style="width:100%">
-                  <img src="hike.jpg" style="width:100%">
-                  <img src="mossy_trees.jpg" style="width:100%">
+                  <img src="hawaii.jpg" style="width:100%"class="zoom">
+                  <img src="hike.jpg" style="width:100%"class="zoom">
+                  <img src="mossy_trees.jpg" style="width:100%"class="zoom">
 
                 </div>
                 <div class="column">
 
-                  <img src="reflection.jpg" style="width:100%">
-                  <img src="river.jpg" style="width:100%">
-                  <img src="yosemite.jpg" style="width:100%">
+                  <img src="reflection.jpg" style="width:100%"class="zoom">
+                  <img src="river.jpg" style="width:100%"class="zoom">
+                  <img src="yosemite.jpg" style="width:100%"class="zoom">
                 </div>
                 <div class="column">
-                  <img src="dusk.jpg" style="width:100%">
-                  <img src="farm.jpg" style="width:100%">
-                  <img src="flowers.jpg" style="width:100%">
-                  <img src="trees.jpg" style="width:100%">
+                  <img src="dusk.jpg" style="width:100%"class="zoom">
+                  <img src="farm.jpg" style="width:100%"class="zoom">
+                  <img src="flowers.jpg" style="width:100%"class="zoom">
+                  <img src="trees.jpg" style="width:100%"class="zoom">
                 </div>
 
     </div>
 </div>
 </div>
-  <div class="parallax-container valign-wrapper">
+  <div id="Music" class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
@@ -153,7 +186,13 @@
       </div>
     </div>
 
-
+    <div id="index-banner" class="parallax-container">
+      <div class="section no-pad-bot">
+        <div class="container">
+        </div>
+      </div>
+      <div class="parallax"><img src="piano.jpg" alt="Piano"></div>
+    </div>
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
